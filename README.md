@@ -1,2 +1,1 @@
-<img width="100" height="100" alt="banner100x100" src="https://github.com/user-attachments/assets/53a9960e-1be1-46aa-8e88-562556d0a6f7" />
-<img width="100" height="100" alt="BONUS_100x100_6detik" src="https://github.com/user-attachments/assets/eb8cc1ea-25fd-4a1a-bd3c-7e751a25fd07" />
+<img width="100" height="100" alt="banner1 gif" src="https://github.com/user-attachments/assets/6636a872-a982-486a-96bd-64fe5a79adab" />
