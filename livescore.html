@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IDN SPORTS x MPOPLAY - Line Up Staff</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:#fff;background:#020515}
+body{overflow-x:auto}
+.page{min-width:1500px;min-height:100vh;padding:18px 0 26px;position:relative;background:
+ radial-gradient(circle at 14% 4%,rgba(80,35,170,.38),transparent 25%),
+ radial-gradient(circle at 94% 70%,rgba(255,0,150,.23),transparent 29%),
+ linear-gradient(135deg,#01030c 0%,#050927 38%,#070014 100%);overflow:hidden}
+.page:before{content:"";position:absolute;inset:0;background:
+ linear-gradient(130deg,transparent 0 13%,rgba(0,119,255,.75) 13.15%,transparent 13.55% 76%,rgba(255,0,210,.75) 76.15%,transparent 76.65%),
+ linear-gradient(145deg,transparent 0 8%,rgba(76,0,255,.55) 8.15%,transparent 8.45% 83%,rgba(0,190,255,.68) 83.15%,transparent 83.55%),
+ repeating-linear-gradient(115deg,transparent 0 13px,rgba(75,0,180,.18) 14px,transparent 17px);opacity:.48;pointer-events:none}
+.page:after{content:"IDN\A SPORTS";white-space:pre;position:absolute;left:16px;top:8px;font-size:86px;line-height:.72;font-weight:900;color:rgba(120,73,255,.16);letter-spacing:-5px;pointer-events:none}
+.watermark-mpo{position:absolute;right:52px;top:92px;font-size:58px;font-weight:900;color:rgba(255,255,255,.07);line-height:.78;transform:skew(-5deg);pointer-events:none}
+.content{position:relative;z-index:2;width:1330px;margin:0 auto}
+.brand{display:flex;align-items:center;justify-content:center;gap:22px;height:72px;margin-bottom:12px}
+.logo-idn{width:438px;height:92px;object-fit:contain;filter:drop-shadow(0 0 10px rgba(0,217,255,.55))}
+.logo-mpo{width:235px;height:72px;object-fit:contain;filter:drop-shadow(0 0 9px rgba(255,255,255,.45))}
+.brand-x{font-size:40px;font-weight:900;color:#fff;text-shadow:0 0 8px #fff;margin:0 6px}
+.panel-title{width:505px;margin:0 auto 20px;padding:10px 20px;text-align:center;font-size:30px;font-weight:900;background:#050510;border:2px solid #af28ff;box-shadow:0 0 14px rgba(0,217,255,.65);clip-path:polygon(5% 0,95% 0,100% 50%,95% 100%,5% 100%,0 50%)}
+.panel-title span{color:#00d9f5}
+.section{margin-top:0;margin-bottom:30px}
+.section.malam{margin-top:38px}
+.shift-head{display:flex;align-items:center;justify-content:center;margin:0 auto 18px}
+.shift-head:before,.shift-head:after{content:"";width:400px;height:2px;background:linear-gradient(90deg,transparent,#fff,#b827ff);box-shadow:0 0 8px #00d9ff}
+.shift-head:after{background:linear-gradient(90deg,#b827ff,#fff,transparent)}
+.shift-label{width:265px;margin:0 10px;padding:6px;text-align:center;font-size:22px;font-weight:900;background:#050510;border:2px solid #9c2cff;clip-path:polygon(8% 0,92% 0,100% 50%,92% 100%,8% 100%,0 50%)}
+.table{width:1290px;margin:0 auto}
+.row{display:flex;gap:8px;margin-bottom:10px}
+.card{width:184px;border:1px solid #00cfff;background:#020202;box-shadow:0 0 8px rgba(0,217,255,.25)}
+.group{height:31px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900}
+.staff{height:39px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800}
+.staff:before{content:"👤";font-size:13px;margin-right:5px;color:red}
+.green .group{background:linear-gradient(#217d23,#125714)}
+.lime .group{background:linear-gradient(#00c92b,#008d20)}
+.purple .group{background:linear-gradient(#7516a9,#470071)}
+.redbg .group{background:linear-gradient(#9c3838,#9c3838)}
+.blue .group{background:linear-gradient(#1e52df,#12359d)}
+.yellow .group{background:linear-gradient(#efd100,#bd9900)}
+.black .group{background:linear-gradient(#ec04c5,#ec04c5)}
+.leader-row{display:flex;justify-content:center;gap:0;margin:10px 0 4px}
+.leader{width:300px;height:39px;border:1px solid #00cfff;background:linear-gradient(90deg,#202020,#0a0a0a);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:900}
+.leader:before{content:"👑";margin-right:8px}
+.rules{width:1120px;margin:46px auto 0;padding:24px 44px 16px;border:2px solid #b126ff;border-left-color:#00d9ff;border-bottom-color:#00d9ff;border-radius:12px;background:rgba(0,0,0,.50);position:relative;box-shadow:0 0 13px rgba(0,217,255,.55)}
+.rules-title{position:absolute;left:50%;top:-24px;transform:translateX(-50%);width:310px;padding:6px;text-align:center;font-size:21px;font-weight:900;background:#090914;border:2px solid #b126ff;clip-path:polygon(6% 0,94% 0,100% 50%,94% 100%,6% 100%,0 50%)}
+.rules-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px 55px}
+.rule{display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.35}
+.num{min-width:20px;height:20px;border-radius:4px;background:#168aff;color:#fff;font-weight:900;text-align:center;line-height:20px;box-shadow:0 0 8px #00d9ff}
+.footer{text-align:center;margin-top:18px;font-size:20px;letter-spacing:.5px}
+.footer b{color:#00d9f5}
+.shine{position:absolute;right:-150px;bottom:-110px;width:500px;height:500px;background:radial-gradient(circle,rgba(255,0,177,.25),transparent 60%);pointer-events:none}
+@media(max-width:900px){.content{margin-left:0}}
+</style>
+</head>
+<body>
+<div class="page"><div class="shine"></div><div class="watermark-mpo">MPO<br>PLAY</div><main class="content">
+  <div class="brand">
+    <img class="logo-idn" src="https://i.imgur.com/IjKp25s.png" alt="IDN SPORTS">
+    <div class="brand-x">x</div>
+    <img class="logo-mpo" src="https://i.imgur.com/xbg9WcS.png" alt="MPOPLAY">
+  </div>
+  <div class="panel-title" id="judulUtama"></div>
+  <section class="section pagi"><div class="shift-head"><div class="shift-label" id="judulPagi"></div></div><div class="table"><div class="row" id="pagiRow1"></div><div class="row" id="pagiRow2"></div><div class="row" id="pagiRow3"></div><div class="leader-row" id="leaderPagi"></div></div></section>
+  <section class="section malam"><div class="shift-head"><div class="shift-label" id="judulMalam"></div></div><div class="table"><div class="row" id="malamRow1"></div><div class="row" id="malamRow2"></div><div class="row" id="malamRow3"></div><div class="leader-row" id="leaderMalam"></div></div></section>
+  <section class="rules"><div class="rules-title">PERATURAN DI KANTOR</div><div class="rules-grid" id="rulesGrid"></div></section>
+  <footer class="footer" id="footerText"></footer>
+</main></div>
+<script>
+/* ===================== EDIT DATA DI SINI =====================
+   Semua bisa diedit: judul, staff pagi, staff malam, leader, dan peraturan.
+   Ubah bagian nama:"..." sesuai nama staff setiap hari.
+============================================================= */
+const judulUtama = "LINE UP STAFF TGL 16";
+const judulPagi = "STAFF PAGI";
+const judulMalam = "STAFF MALAM";
+const footerText = "★ IPO TEAM ★ | (IDN & MPO)";
+
+const pagiRow1 = [
+  {grup:"LIGA BANDAR", nama:"RIKI", warna:"green"},
+  {grup:"LIGA BANDAR", nama:"ROBERT", warna:"green"},
+  {grup:"LIGA BANDAR", nama:"RAMBO", warna:"green"},
+  {grup:"LUKIS 4D", nama:"LANGI", warna:"purple"},
+  {grup:"PC KOSONG", nama:"-", warna:"lime"},
+  {grup:"PC KOSONG", nama:"-", warna:"lime"},
+  {grup:"PC KOSONG", nama:"-", warna:"lime"}
+];
+const pagiRow2 = [
+  {grup:"BAYAN BOLA", nama:"BAGUS SA", warna:"redbg"},
+  {grup:"BAYAN BOLA", nama:"FIKRI SALIM", warna:"redbg"},
+  {grup:"VIA BOLA", nama:"RINDI", warna:"blue"},
+  {grup:"VIA BOLA", nama:"FIKHRI", warna:"blue"},
+  {grup:"VIA BOLA", nama:"GIDEON", warna:"blue"},
+  {grup:"BAYAN BOLA", nama:"DWI M", warna:"redbg"}
+];
+const pagiRow3 = [
+  {grup:"BOLA UNION", nama:"YULINA", warna:"yellow"},
+  {grup:"CAKRA BOLA", nama:"KEVIN", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"DEFA", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"MARDIAN", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"JHANSENT", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"DIAN", warna:"black"}
+];
+const leaderPagi = ["SIAMAN", "-", "BERNANDO"];
+
+/* STAFF MALAM - EDIT BEBAS, TIDAK MENGIKUTI STAFF PAGI */
+const malamRow1 = [
+  {grup:"LIGA BANDAR", nama:"HAIQAL", warna:"green"},
+  {grup:"LIGA BANDAR", nama:"ADELLA", warna:"green"},
+  {grup:"LIGA BANDAR", nama:"ARRUAN", warna:"green"},
+  {grup:"LUKIS 4D", nama:"ARIF", warna:"purple"},
+  {grup:"PC KOSONG", nama:"-", warna:"lime"},
+  {grup:"PC KOSONG", nama:"-", warna:"lime"},
+  {grup:"PC KOSONG", nama:"-", warna:"lime"}
+];
+const malamRow2 = [
+  {grup:"BAYAN BOLA", nama:"BAGUS PER", warna:"redbg"},
+  {grup:"BAYAN BOLA", nama:"ADITIA", warna:"redbg"},
+  {grup:"VIA BOLA", nama:"VIKA", warna:"blue"},
+  {grup:"VIA BOLA", nama:"DAKA", warna:"blue"},
+  {grup:"VIA BOLA", nama:"HARIA", warna:"blue"},
+  {grup:"VIA BOLA", nama:"-", warna:"blue"}
+];
+const malamRow3 = [
+  {grup:"BOLA UNION", nama:"NAMA STAFF MALAM", warna:"yellow"},
+  {grup:"CAKRA BOLA", nama:"NAMA STAFF MALAM", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"NAMA STAFF MALAM", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"NAMA STAFF MALAM", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"NAMA STAFF MALAM", warna:"black"},
+  {grup:"CAKRA BOLA", nama:"NAMA STAFF MALAM", warna:"black"}
+];
+const leaderMalam = ["-", "-", "-"];
+
+const peraturan = [
+  "Staff wajib hadir tepat waktu sesuai jadwal shift.",
+  "Dilarang meninggalkan posisi tanpa izin leader.",
+  "Setiap staff wajib mengumpulkan HP pribadi di tempat yg sudah di sediakan.",
+  "Setiap pergantian shift wajib melakukan serah terima tugas & pastikan semua kerjaan beres.",
+  "Wajib menjaga komunikasi dan koordinasi antar staff.",
+  "Apabila ada masalah pekerjaan wajib dilaporkan kepada leader.",
+  "Jaga kebersihan meja kerja dan area kantor.",
+  "Gunakan jam merokok sesuai aturan yang berlaku.",
+  "Dilarang membocorkan data internal kantor.",
+  "Selalu fokus, disiplin, dan bertanggung jawab saat bertugas."
+];
+/* ===================== BATAS EDIT DATA ===================== */
+
+function highlightNumber(text){return text.replace(/(\d+)/g,'<span>$1</span>')}
+document.getElementById('judulUtama').innerHTML = highlightNumber(judulUtama);
+document.getElementById('judulPagi').textContent = judulPagi;
+document.getElementById('judulMalam').textContent = judulMalam;
+document.getElementById('footerText').innerHTML = footerText.replace('CAKRA BOLA','<b>CAKRA BOLA</b>');
+function renderRow(id,data){document.getElementById(id).innerHTML=data.map(x=>`<div class="card ${x.warna}"><div class="group">${x.grup}</div><div class="staff" contenteditable="true" title="Bisa diedit langsung di browser">${x.nama}</div></div>`).join('')}
+function renderLeader(id,data){document.getElementById(id).innerHTML=data.map(x=>`<div class="leader" contenteditable="true" title="Bisa diedit langsung di browser">${x}</div>`).join('')}
+renderRow('pagiRow1',pagiRow1);renderRow('pagiRow2',pagiRow2);renderRow('pagiRow3',pagiRow3);renderLeader('leaderPagi',leaderPagi);
+renderRow('malamRow1',malamRow1);renderRow('malamRow2',malamRow2);renderRow('malamRow3',malamRow3);renderLeader('leaderMalam',leaderMalam);
+document.getElementById('rulesGrid').innerHTML = peraturan.map((x,i)=>`<div class="rule"><span class="num">${i+1}</span><span contenteditable="true" title="Bisa diedit langsung di browser">${x}</span></div>`).join('');
+</script>
+</body>
+</html>
